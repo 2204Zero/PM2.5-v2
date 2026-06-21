@@ -1,0 +1,60 @@
+## Task 1
+
+Dataset ID:
+COPERNICUS/S5P/OFFL/L3_HCHO
+
+Band:
+tropospheric_HCHO_column_number_density
+
+Date Range:
+2025-01-01 to 2025-12-31
+
+Output:
+Mean HCHO Distribution over India
+
+## task 3
+Dataset 1:
+COPERNICUS/S5P/OFFL/L3_HCHO
+
+Band:
+tropospheric_HCHO_column_number_density
+
+Date:
+2025-01-01 to 2025-12-31
+
+
+Dataset 2:
+NASA/LANCE/SNPP_VIIRS/C2
+
+Band:
+FRP
+
+Date:
+2025-01-01 to 2025-12-31
+
+## for report content
+Fire hotspot detection was performed using DBSCAN clustering on VIIRS fire observations.
+
+The algorithm identified 53 hotspot clusters across India and classified 262 points as noise.
+
+The largest hotspot cluster contained 3624 fire detections, indicating a major concentration of fire activity.
+
+DBSCAN successfully separated dense fire regions from isolated fire events and provided spatial hotspot identification without requiring a predefined number of clusters.
+
+Dataset Details (for report)
+
+Dataset: NASA/LANCE/SNPP_VIIRS/C2
+
+Period: 2025
+
+Method: DBSCAN
+
+Parameters:
+eps = 0.15
+min_samples = 10
+
+result : 
+Total Fire Points = 7694
+Total Clusters = 53
+Noise Points = 262
+Largest Cluster = 3624 points
