@@ -58,3 +58,13 @@ Total Fire Points = 7694
 Total Clusters = 53
 Noise Points = 262
 Largest Cluster = 3624 points
+
+Pearson correlation coefficient between Fire Radiative Power (FRP) and HCHO concentration was 0.019, indicating an extremely weak positive relationship. This suggests that fire activity alone does not strongly explain HCHO variability across the sampled locations.
+
+
+
+• HCHO concentration mapped across India using Sentinel-5P.
+• Fire activity mapped using VIIRS data.
+• Overlay indicates spatial coincidence in several regions.
+• DBSCAN identified 1 major hotspot cluster and 500 noise points.
+• Pearson correlation between Fire and HCHO = 0.0191 (very weak positive relationship).
